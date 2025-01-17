@@ -7,7 +7,7 @@ import Stripe from 'stripe';
 export class PaymentService {
   private stripe:Stripe;
   constructor(){
-    this.stripe=new Stripe('sk_test_51Q18tbH1pnhBHZMNGXSAwpYH7pIqUwvL49r1S5cPQvUzEsW3oEgGI11kU8S3uGAnwVA8jGhOZ0sN4D98tphJ8rGk00XfwQEd3A',{
+    this.stripe=new Stripe('',{
       apiVersion:'2020-08-27' as any,
     })
   }
